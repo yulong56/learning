@@ -1,0 +1,10 @@
+spring:
+    datasource:
+        url: jdbc:mysql://localhost:3306/learning?serverTimezone=GMT
+        username: root
+        password:
+        driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+    configuration:
+      map-underscore-to-camel-case: true
